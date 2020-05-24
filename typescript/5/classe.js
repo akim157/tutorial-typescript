@@ -1,3 +1,4 @@
+"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -77,3 +78,4 @@ var AppComponent = /** @class */ (function (_super) {
     };
     return AppComponent;
 }(Component));
+//# sourceMappingURL=classe.js.map

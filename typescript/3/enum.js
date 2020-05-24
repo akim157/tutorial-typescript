@@ -1,3 +1,4 @@
+"use strict";
 var Membership;
 (function (Membership) {
     Membership[Membership["Simple"] = 0] = "Simple";
@@ -16,3 +17,4 @@ var SociaMedia;
 })(SociaMedia || (SociaMedia = {}));
 var social = SociaMedia.INSTAGRAM;
 console.log(social);
+//# sourceMappingURL=enum.js.map

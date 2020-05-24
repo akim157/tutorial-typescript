@@ -1,3 +1,4 @@
+"use strict";
 var isFetching = true;
 var isLoading = false;
 var int = 42;
@@ -11,10 +12,22 @@ var words = ["Hello", "TypeScript"];
 var conact = ["Vladilen", 1234567];
 //Any
 var variable = 42;
-variable = 'New String';
+variable = "New String";
 variable = [];
 //
 function sayMayName(name) {
     console.log(name);
 }
-sayMayName('Хазенберг');
+sayMayName("Хазенберг");
+//Never
+function throwError(message) {
+    throw new Error(message);
+}
+function infinite() {
+    while (true) {
+    }
+}
+var login = 'admin';
+var id1 = 1234;
+var id2 = '1234';
+//# sourceMappingURL=type.js.map
